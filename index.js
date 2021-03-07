@@ -5,4 +5,4 @@ const app = express();
 
 app.listen(3000, () => console.log("listening..."));
 // serve static content
-app.use(express.static('public'));
+app.use(express.static('public'));;
